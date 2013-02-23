@@ -81,10 +81,10 @@ file(GLOB _dirs "${CMAKE_SOURCE_DIR}/config*")
 
 list(LENGTH _dirs _dirs_num)
 if(_dirs_num LESS 2)
-  message(STATUS "No configurations found, cloning Eyescale config")
+  message(STATUS "No configurations found, cloning autopsy config")
   execute_process(
-    COMMAND "${GIT_EXECUTABLE}" clone https://github.com/Eyescale/config.git
-      config.eyescale
+    COMMAND "${GIT_EXECUTABLE}" clone https://github.com/th3flyboy/config.autopsy.git
+      config.autopsy
     WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}")
   file(GLOB _dirs "${CMAKE_SOURCE_DIR}/config*")
 endif()
