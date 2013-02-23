@@ -7,3 +7,16 @@ CMakeLists.txt.user*
 build*
 Build*
 CMakeFiles
+CMakeCache.txt
+Sleuthkit.dot
+Sleuthkit_configure_cmd.cmake
+bootstrap.cmake
+cpMakefile.cmake
+rmMakefile.cmake
+Sleuthkit-cfgcmd.txt
+Sleuthkit-cfgcmd.txt.in
+Sleuthkit-gitclone.cmake
+config.autopsy.dot
+config.dot
+gitbranchandtag.cmake
+projects.make
