@@ -1,0 +1,9 @@
+src
+Debug
+Release
+config.*/
+config/*.png
+CMakeLists.txt.user*
+build*
+Build*
+CMakeFiles
