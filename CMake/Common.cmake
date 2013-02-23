@@ -66,15 +66,6 @@ else()
   set(CMAKE_MODULE_INSTALL_PATH share/${CMAKE_PROJECT_NAME}/CMake)
 endif()
 
-# Boost settings
-if(MSVC)
-  option(Boost_USE_STATIC_LIBS "Use boost static libs" ON)
-endif()
-if(BOOST_ROOT)
-  set(Boost_NO_SYSTEM_PATHS TRUE)
-endif()
-add_definitions(-DBOOST_ALL_NO_LIB) # Don't use 'pragma lib' on Windows
-
 include(TestBigEndian)
 test_big_endian(BIGENDIAN)
 if(BIGENDIAN)
